@@ -28,9 +28,15 @@ Untracked文件是未在Git中的文件，Tracked文件是在Git中的文件。�
 
 ### Github
 
-从Github克隆到本地，建议先Fork，以后可以同步 
+从Github克隆到本地，建议先Fork，以后可以本地同步远程（远程仓库名字为origin）
 
-将本地仓库同步到Github 	$git remote add origin git@github.com:your_name/program_name.git
+将本地仓库与Github仓库关联		$git remote add origin git@github.com:your_name/program_name.git
+
+将本地库所有内容推送到远程库中		$git push -u origin master
+
+
+
+
 
 
 
