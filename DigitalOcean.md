@@ -36,9 +36,49 @@ Add your ssh key(也可不加)
 
 Terminal安装参考：[链接]([https://medium.com/@jackme256/%E6%90%AC%E7%93%A6%E5%B7%A5-vps-%E6%90%AD%E5%BB%BA-shadowsocks-ss-%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B-ss%E5%A4%9A%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE%E4%BC%98%E5%8C%96-efc6dda704fe](https://medium.com/@jackme256/搬瓦工-vps-搭建-shadowsocks-ss-科学上网图文教程-ss多用户配置优化-efc6dda704fe))。
 
+### 最新版方法
 
+1.打开Mac终端，登陆VPS
 
+`ssh -p 端口号 root@ip`
 
+2.默认系统为Centos 6 x86
+
+ * 安装wegt工具
+
+   `yum install wget`
+
+ * 下载ss
+
+   `wget — no-check-certificate -O [shadowsocks.sh](/Users/haoyuwu/Library/Application Support/typora-user-images/C970284E-8BB8-4E16-8420-9146D0BECC5D/shadowsocks.sh) https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh`
+
+* 把下载的ss变成可以执行的
+
+  `chmod +x shadowsocks.sh`
+
+* 执行ss
+
+  `./shadowsocks.sh 2>&1 | tee shadowsocks.log`
+
+* 如果日后需要修改配置
+
+  * 进入json
+
+    `vi /etc/shadowsocks.json`
+
+  * 重启ss
+
+    `/etc/init.d/shadowsocks restart`
+
+  * 关闭防火墙（这个可以不管）
+
+    `service iptables stop`
+
+    `chkconfig iptables off`
+
+    
+
+    
 
 
 
