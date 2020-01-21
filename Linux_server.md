@@ -19,6 +19,13 @@
 
 
 
+## 创建软链
+
+1. 即Linux中的快捷方式，当服务器ssd盘较小时，需要使用软链。
+   * ln -s 源地址 目的地址 e.g.  `ln -s ./python/bin/python3.6 ./python3`
+
+
+
 # 安装Anaconda
 
 1. 输入`wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-5.3.1-Linux-x86_64.sh`，下载Anaconda。
