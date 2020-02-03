@@ -10,8 +10,8 @@
 
 ## Mac & Linux
 
-1. Mac or Linux 在Terminal上输入 `ssh-keygen` 创建公钥和私钥，之后一直回车。
-2. 然后输入`ssh-copy-id [被控制的用户名]@[它的ip]`，完成免密登陆。
+1. 本地Mac or Linux 在Terminal上输入 `ssh-keygen` 创建公钥和私钥，之后一直回车。
+2. 本地然后输入`ssh-copy-id [被控制的用户名]@[它的ip]`，完成免密登陆。
 
 ## Windows
 
