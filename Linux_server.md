@@ -40,6 +40,10 @@
 
 
 
+## 查询Token
+
+在远程服务器上，输入`jupyter notebook list`，即可查询Token。
+
 
 
 # WOE学习
