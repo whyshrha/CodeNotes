@@ -128,13 +128,13 @@ Terminal安装参考：[链接]([https://medium.com/@jackme256/%E6%90%AC%E7%93%A
 
   `./shadowsocks.sh 2>&1 | tee shadowsocks.log`
 
-* 如果日后需要修改配置
+* 如果**日后需要**修改配置
 
   * 进入json
 
     `vi /etc/shadowsocks.json`
 
-  * 重启ss
+  * **重启ss**
 
     `/etc/init.d/shadowsocks restart`
 
@@ -146,9 +146,13 @@ Terminal安装参考：[链接]([https://medium.com/@jackme256/%E6%90%AC%E7%93%A
 
     
 
+# 故障排除
 
+查询ip是否被封：直接用ping就可以
 
+查询端口是否被封：
 
+http://tool.chinaz.com/port/
 
 
 
