@@ -12,18 +12,6 @@ Add your ssh key(也可不加)
 
 
 
-1. `$ yum install wget`      安装wget命令
-2. `$ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh`     安装加速配置，(可以不加)。
-3. `$ reboot`   重启
-4. `$ wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh`  安装shadowsocks
-5. `$ chmod +x shadowsocks-all.sh`    更改让sh成为可执行文件
-6. `$ ./shadowsocks-all.sh`     运行进行配置。加密方式建议aes-256-gcm等，不建议cfb或rc4。
-7. 如果想配置ipv6，则修改 `vi /etc/shadowsocks-python/config.json`文件，Ipv6 将配置中的“0.0.0.0” 改为 "::”。之后需要重启shadowsocks，`/etc/init.d/shadowsocks-python restart`。
-
-
-
-
-
 # 下载shadowsocksR客户端
 
 1. Mac 下载https://github.com/qinyuhang/ShadowsocksX-NG-R/releases 
@@ -38,17 +26,6 @@ Add your ssh key(也可不加)
 
    https://tlanyan.me/get-proxy-clients/ ios科学上网
 
-   
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -56,7 +33,9 @@ Add your ssh key(也可不加)
 
 Terminal安装参考：[链接]([https://medium.com/@jackme256/%E6%90%AC%E7%93%A6%E5%B7%A5-vps-%E6%90%AD%E5%BB%BA-shadowsocks-ss-%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B-ss%E5%A4%9A%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE%E4%BC%98%E5%8C%96-efc6dda704fe])。需科学上网。
 
-### 最新版方法
+
+
+
 
 1.打开Mac终端，登陆VPS
 
@@ -64,7 +43,7 @@ Terminal安装参考：[链接]([https://medium.com/@jackme256/%E6%90%AC%E7%93%A
 
 2.默认系统为Centos 6 x86
 
-**ShadowsocksR配置**
+## ShadowsocksR配置 New
 
 * 安装wegt工具
 
@@ -110,7 +89,7 @@ Terminal安装参考：[链接]([https://medium.com/@jackme256/%E6%90%AC%E7%93%A
 
 
 
-**Shadowsocks配置**
+## Shadowsocks配置
 
  * 安装wegt工具
 
@@ -144,15 +123,57 @@ Terminal安装参考：[链接]([https://medium.com/@jackme256/%E6%90%AC%E7%93%A
 
     `chkconfig iptables off`
 
-    
+
+
+
+
+# V2Ray一键安装脚本
+
+V2Ray 是一个于 Shadowsocks 之后非常好用的代理软件，但是由于 V2Ray 的配置略复杂，GUI 客户端不完善，所以 V2Ray 并没有像 Shadowsocks 在科学上网人群之中那么流行。
+
+https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC
+
+
+
+购买免费域名：
+
+http://www.freenom.com/zh/index.html
+
+免费更换DNS：
+
+https://www.dnspod.cn/
+
+
+
+# Ut ipv6配置
+
+![ut_config](./ut_config.jpeg)
+
+
 
 # 故障排除
 
-查询ip是否被封：直接用ping就可以
+1. 查询ip是否被封：直接用ping就可以
 
-查询端口是否被封：
+2. 国内查询端口是否被封：
 
 http://tool.chinaz.com/port/
+
+或者 http://coolaf.com/tool/port
+
+国外端口扫描工具： https://www.yougetsignal.com/tools/open-ports/
+
+如果国内不行，国外可以的话，就是端口被封了。
+
+3. 部分网站进不去，可能是DNS无法跳转，建议使用**全局代理**。
+
+   
+
+
+
+# 
+
+
 
 
 
@@ -165,20 +186,6 @@ Ipv6 参照： [https://www.polarxiong.com/archives/%E6%90%AD%E5%BB%BAipv6-VPN-%
 bbs参照（Google云）：https://bbs.pku.edu.cn/v2/post-read.php?bid=35&threadid=16378830
 
 shadowsocksR一键安装：http://www.wangchao.info/1549.html?nsukey=EXVQ%2BS5%2FoTUmz2Ool8KDfM9cFu%2BQafBZVbR6h135Qy5g%2BWPzmpXovkXl5tild%2BeEPrynn40KsoJ7%2FZZD8ndAVBDLaZjx4zB3gi6FSpY8flOCfJeVSciD5DtWNYCKX9S%2FpzeNEq0bxN5xZK%2BeHSDeXIREbjQcagBt8KtKbyVBS2MnuljMRu9SGhw5f8HLi6xrMaQx1gzVeLczQBwlowCkuw%3D%3D
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
