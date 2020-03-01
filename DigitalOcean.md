@@ -147,7 +147,7 @@ https://www.dnspod.cn/
 
 # Ut ipv6配置
 
-![ut_config](./ut_config.jpeg)
+![ut_config](./pic/ut_config.jpeg)
 
 
 
