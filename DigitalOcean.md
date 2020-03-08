@@ -189,6 +189,20 @@ shadowsocksR一键安装：http://www.wangchao.info/1549.html?nsukey=EXVQ%2BS5%2
 
 
 
+# 进阶
+
+利用复杂的虚拟成网页流量，需要注册域名。
+
+视频教程https://www.youtube.com/watch?v=RMSxI7D-01w
+
+免费域名购买https://www.freenom.com/zh/index.html?lang=zh
+
+域名解析https://www.dnspod.cn/ （将域名和ip地址联通起来）
+
+
+
+或者直接参考最新的视频https://www.youtube.com/watch?v=92SAji0lzcs （甚至可能可以直接设置路由器）
+
 
 
 
