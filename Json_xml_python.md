@@ -16,6 +16,14 @@ JSON(JavaScript Object Notation) 是一种轻量级的数据交换格式。易�
 
 与XML 相比，JSON是在JS中读写结构化数据更好的 方式，因为它可以把JSON 直接传给eval(),而不必创建 DOM 对象。
 
+JSON的两种结构：
+
+* “名称/值”对的集合（A collection of name/value pairs）。
+
+* 值的有序列表（An ordered list of values）。在大部分语言中，它被理解为数组（array）。
+
+  
+
 ## 优缺点
 
 ### XML
