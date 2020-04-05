@@ -110,3 +110,36 @@ with open('../data/submit.json', 'w') as f:
     json.dump(res, f)
 ```
 
+
+
+
+
+# 关于json load dump的参数详解
+
+* load参数介绍：
+
+  * https://blog.csdn.net/daerzei/article/details/100598901
+
+  详细关注：parse_float参数，符合float类型的字符串将被转为你所指定的。*比如说你可以指定为decimal.Decimal。*
+
+
+
+* dump参数介绍：
+  * https://www.jianshu.com/p/cfbcd9f8691c
+  * https://docs.python.org/zh-cn/3/library/json.html
+
+  
+
+
+
+
+
+
+
+# 参考文档
+
+1. python入理数据简介https://python3-cookbook.readthedocs.io/zh_CN/latest/c06/p02_read-write_json_data.html
+2. json包官方介绍：https://docs.python.org/3.6/library/json.html?highlight=json#module-json
+
+
+
