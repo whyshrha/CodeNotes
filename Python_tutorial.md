@@ -259,7 +259,14 @@ data = pd.read_csv('file_path',sep=',')
 
 
 
+# PS
 
+## Python加密
+
+主要为编译pyc，代码混淆，windows独有的执行文件，Cython兼容性可能一般。
+
+1. https://zhuanlan.zhihu.com/p/54296517
+2. https://zhuanlan.zhihu.com/p/60888285
 
 
 
