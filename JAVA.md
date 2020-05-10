@@ -42,3 +42,9 @@ https://learn.hashicorp.com/consul/getting-started/install 安装教程
 
 
 
+#  IntelliJ IDEA download
+
+edu邮箱注册，获取正版。
+
+安装可参照：https://www.jianshu.com/p/f54f07c4c317
+
