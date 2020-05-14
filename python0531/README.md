@@ -2,7 +2,7 @@
 
 # 地址
 
-[下载地址]()
+[下载地址](https://www.anaconda.com/products/individual)
 
 # Python Tutorial
 
