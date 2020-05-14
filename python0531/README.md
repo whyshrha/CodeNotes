@@ -102,31 +102,28 @@ Statsmodels 是一个统计分析包，来源R语音分析的丰富性，包括�
        ☑ Register Anaconda as my default Python 3.7
        ```
 
-     * 安装完毕后，需要配置环境变量，打开 我的电脑 — 右键属性 — 高级系统设置 — 环境变量 — 选中Path变量一栏 — 点击编辑 — 新建，加入下面三行：
+     * 安装完毕后，需要配置环境变量，打开 我的电脑 — 右键属性 — 高级系统设置 — 环境变量 — 选中Path变量一栏 — 点击编辑 — 新建，加入下面三行：【注：`\Anaconda3`为`粘贴内容`里面的，这里只是为展现形式。】
 
-       【注：“\Anaconda3”为“粘贴内容”里面的，这里只是为展现形式。】
-   
        ```
        粘贴内容\Anaconda3
        粘贴内容\Anaconda3\Scripts
-    粘贴内容\Anaconda3\Library\bin
-       
-    ```
-   
+       粘贴内容\Anaconda3\Library\bin
+       ```
+
      * 进入cmd，需更新修复一个[bug](https://superuser.com/questions/1422008/conda-install-packagename-gives-deprecation-warning)，按照下面步骤操作即可（Windows进入cmd方法：Windows+R，输入：cmd）：
-   
+
        ```
        Windows 进入cmd，输入：
        
        conda update conda
-    
+       
        之后，输入需要确定是否更新，输入：y
-    ```
-   
-* 打开及检测
-   
+       ```
+
+   * 打开及检测
+
      进入cmd，输入`jupyter lab`。或者打开应用Anaconda Navigator后，点击jupyter lab。
-   
+
      推荐前者，后者打开速度很慢。
 
 
