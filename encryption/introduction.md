@@ -45,7 +45,7 @@ DES使用的密钥表面上是64位的，然而只有其中的56位被实际用�
 
 在对称加密中，发送方与接收方使用相同的密钥。那么在非对称加密中则是发送方与接收方使用的不同的密钥。其主要解决的问题是防止在秘钥协商的过程中发生泄漏。比如在对称加密中，小蓝将需要发送的消息加密，然后告诉你密码是123balala,ok,对于其他人而言，很容易就能劫持到密码是123balala。那么在非对称的情况下，小蓝告诉所有人密码是123balala,对于中间人而言，拿到也没用，因为没有私钥。所以，非对称密钥其实主要解决了密钥分发的难题。
 
-![asymmetric](https://github.com/whyshrha/CodeNotes/blob/master/encryption/pic/asymmetric.png)
+![asymmetric](./pic/asymmetric.png)
 
 ### RSA
 
