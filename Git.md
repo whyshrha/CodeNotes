@@ -108,6 +108,23 @@ Untracked文件是未在Git中的文件，Tracked文件是在Git中的文件。�
 
 
 
+### 清除.DS_Store
+
+remote delete .DS_Store
+
+```
+git rm --cached .DS_Store
+git commit -m 'delete .DS_Store'
+touch .gitignore
+vim .gitignore
+```
+
+insert
+
+.DS_Store
+
+*/.DS_Store
+
 
 
 
