@@ -36,7 +36,7 @@ https://rancher2.docs.rancher.cn/docs/overview/_index
 
 https://rancher2.docs.rancher.cn/docs/k8s-in-rancher/pipelines/_index/
 
-流水线几个阶段图参考
+流水线几个阶段图参考，CI CD流程图
 
 https://www.jenkins.io/zh/doc/book/pipeline/
 

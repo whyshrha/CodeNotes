@@ -112,6 +112,15 @@ with open('../data/submit.json', 'w') as f:
 
 
 
+`对于保存的json中的中文，表现为\u8bc6\u3002的解决方案`
+
+```
+将控制asci编码的ensure_ascii=False,其中默认的话为True，设置为False可以显示中文。最后再记得调一下编码为uft-8
+
+json.dump(res,f,ensure_ascii=False)
+
+```
+
 
 
 # 关于json load dump的参数详解
