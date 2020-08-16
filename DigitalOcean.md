@@ -1,3 +1,13 @@
+# PKU private
+
+下载软件：https://blog.wallesspku.space/blog/post/hiaoxui/clash-zh
+
+获取定于链接地址：https://wallesspku.space/ssr/register
+
+
+
+
+
 # Github学生优惠
 
 Digitocean：通过https://education.github.com/pack/offers 获取学生优惠，注册后点击下面的  

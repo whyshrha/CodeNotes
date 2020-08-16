@@ -121,6 +121,12 @@ json.dump(res,f,ensure_ascii=False)
 
 ```
 
+# VSCode
+
+对于VSCode，将setting 中的 files.autoGuessEncoding 项改为true，可以默认识别编码方式。但并不是百分百好用，有时候会识别错。建议合理使用。
+
+
+
 
 
 # 关于json load dump的参数详解
