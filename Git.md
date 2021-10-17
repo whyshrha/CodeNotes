@@ -77,7 +77,7 @@ Untracked文件是未在Git中的文件，Tracked文件是在Git中的文件。�
 进入rsa.pub 复制它，到Github中即可。
 
 
-
+关于其中遇到的问题，亦可参考https://cloud.tencent.com/developer/article/1861466
 
 
 ### Github
