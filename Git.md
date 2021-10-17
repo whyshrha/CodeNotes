@@ -63,12 +63,32 @@ Untracked文件是未在Git中的文件，Tracked文件是在Git中的文件。�
 部分内容可以参考[廖雪峰Git](https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416)。
 
 
+对于Mac用户，可以
+1. 查看密钥是否存在
+	
+打开终端查看是否存在SSH密钥： `cd ~/.ssh`
+没有文件，就是没有。
+
+2. 如果没有生成新的密钥
+
+`ssh-keygen -t rsa -C "youremail@example.com"`
+之后一路回车即可。
+
+进入rsa.pub 复制它，到Github中即可。
+
+
+
+
 
 ### Github
 
 从Github克隆到本地，建议先Fork，以后可以本地同步远程（远程仓库名字为origin）。或者在Github上先建立一个空的仓库。
 
 1. 将本地仓库与Github仓库关联		$`git remote add origin git@github.com:your_name/program_name.git`
+
+复制的时候，记得用**Git协议的，即上面格式的**，不要用http协议的，否则git push 会报错，无法通信。
+
+
 2. 将本地库所有内容推送到远程库中，-u是关联主支分支		$`git push -u origin master`
 3. 之后的提交就可以直接用 $`git push origin master`
 
