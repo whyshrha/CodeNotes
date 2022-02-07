@@ -127,7 +127,21 @@ Statsmodels 是一个统计分析包，来源R语音分析的丰富性，包括�
      推荐前者，后者打开速度很慢。
 
 
+3. Linux
 
+   * [下载地址](https://www.anaconda.com/distribution/)，下载Python 3.7 version for Linux
+
+   * 将下载的文件放到linux路径下，然后输出 
+       ```
+       bash XXX.sh
+       ```
+
+   * 一直向下，是否安装VScode，看个人爱好，我选择no。
+
+   * 之后可以参考Linux_server 文档操作Linux。
+
+
+     
 
 
 ## 执行环境
