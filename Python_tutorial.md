@@ -15,7 +15,7 @@ Python这个名字，来自Guido所挚爱的电视剧Monty Python’s Flying Cir
 
 2.应用领域
 
-Python可以应用于众多领域，如：数据分析、组件集成、网络服务、图像处理、数值计算和科学计算等众多领域。目前业内几乎所有大中型互联网企业都在使用Python，如：Youtube、Dropbox、BT、Quora（中国知乎）、豆瓣、知乎、Google、Yahoo!、Facebook、NASA、百度、腾讯、汽车之家、美团等。
+Python可以应用于众多领域，如：数据分析、组件集成、网络服务、图像处理、数值计算和科学计算等众多领域。目前业内几乎所有大中型互联网企业都在使用Python，如：Youtube、Dropbox、BT、Quora（对比中国知乎）、豆瓣、知乎、Google、Yahoo!、Facebook、NASA、百度、腾讯、汽车之家、美团等。
 
 ## 目的
 
@@ -70,7 +70,7 @@ Statsmodels 是一个统计分析包，来源R语音分析的丰富性，包括�
 
 1. Mac
 
-   * [下载地址](https://www.anaconda.com/distribution/)，下载Python 3.7 version for Mac
+   * [下载地址](https://www.anaconda.com/distribution/)，下载Python 3.9 version for Mac
 
    * 安装，一直下一步即可。
 
@@ -84,7 +84,7 @@ Statsmodels 是一个统计分析包，来源R语音分析的丰富性，包括�
 
 2. Windows
 
-   * [下载地址](https://www.anaconda.com/distribution/)，下载Python 3.7 version for Windows
+   * [下载地址](https://www.anaconda.com/distribution/)，下载Python 3.9 version for Windows
 
    * 安装
 
@@ -94,7 +94,7 @@ Statsmodels 是一个统计分析包，来源R语音分析的丰富性，包括�
 
        ```
        □ Add Anaconda to my PATH environment variable
-       ☑ Register Anaconda as my default Python 3.7
+       ☑ Register Anaconda as my default Python 3.9
        ```
 
      * 安装完毕后，需要配置环境变量，打开 我的电脑 — 右键属性 — 高级系统设置 — 环境变量 — 选中Path变量一栏 — 点击编辑 — 新建，加入下面三行：
@@ -124,7 +124,7 @@ Statsmodels 是一个统计分析包，来源R语音分析的丰富性，包括�
 
 3. Linux
 
-   * [下载地址](https://www.anaconda.com/distribution/)，下载Python 3.7 version for Linux
+   * [下载地址](https://www.anaconda.com/distribution/)，下载Python 3.9 version for Linux
 
    * 将下载的文件放到linux路径下，然后输出 
        ```
