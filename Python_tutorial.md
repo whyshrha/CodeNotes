@@ -255,7 +255,7 @@ data = pd.read_csv('file_path',sep=',')
 
 ## Reference
 
-1. **书籍 Python for Data Analysis[网译书籍](https://www.gitbook.com/download/pdf/book/wizardforcel/pyda-2e)， [2nd codes](https://github.com/wesm/pydata-book)。第一版 [中文版](https://pan.baidu.com/s/14aUj15-_ZVr2GEQGY780Rg)， 密码:m4v2。**
+1. **书籍 Python for Data Analysis 1st中文，2nd原版(https://www.aliyundrive.com/s/yezsdGMEVgb)，提取密码0ui8 [2nd codes](https://github.com/wesm/pydata-book)。**
 2. [Google's Python Class](https://developers.google.com/edu/python/) 里面含有video可以帮助了解数据的类型。
 3. [视频教程](https://morvanzhou.github.io/tutorials/python-basic/basic/) 里面还有video可以帮助基本操作。来源官方文档[The Python Tutorial](https://docs.python.org/3.7/tutorial/)。
 4. [廖雪峰教程](https://www.liaoxuefeng.com/wiki/1016959663602400)
