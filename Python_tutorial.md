@@ -136,7 +136,7 @@ Statsmodels 是一个统计分析包，来源R语音分析的丰富性，包括�
    * 之后可以参考Linux_server 文档操作Linux。
 
 
-     
+​     
 
 
 ## 执行环境
@@ -236,6 +236,12 @@ data = pd.read_csv('file_path',sep=',')
 ## 数据清洗
 
 处理缺失数据、数据整合、可视化统计、数据分组统计（类似透视表）group_by。
+
+
+
+## 金融市场量化
+
+python + wind
 
 
 
