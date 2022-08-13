@@ -1,32 +1,47 @@
 [TOC]
 
-# 地址
 
-[下载地址](https://www.anaconda.com/products/individual)
 
-# Python Tutorial
+# Python零基础入门
 
 浏览器推荐Chrome，其他也可以。
 
-## 背景
 
-目前对于数据分析，Python为首选。除了内置的库外，Python还有大量的第三方库，也就是别人开发的，供你直接使用的东西。Python具有很多优势，比如，完成同一个任务，C语言要写1000行代码，Java只需要写100行，而Python可能只要20行。[TIOBE](https://tiobe.com/tiobe-index/)，[GIthub](https://madnight.github.io/githut/#/pull_requests/2019/1)排名增长最快，因为方便，更新贡献的人也越来越多。Python是一个工具，会利用即可。它可以编写"间断而粗糙"的小程序（也就是脚本，scripting，一系列命令）。
+
+# 理论
+
+## 背景介绍
+
+目前对于数据分析，Python可作为为首选。除了内置的库外，Python还有大量的第三方库，也就是别人开发的，供你直接使用的东西。Python具有很多优势，比如，完成同一个任务，C语言要写1000行代码，Java只需要写100行，而Python可能只要20行，可以用更少的代码表达想法。[TIOBE](https://tiobe.com/tiobe-index/)，[GIthub](https://madnight.github.io/githut/#/pull_requests/2019/1)排名增长最快（2021年第四季度，全球排名上升第一），因为方便，更新贡献的人也越来越多。Python是一个工具，会利用即可。它可以编写"间断而粗糙"的小程序（也就是脚本，scripting，一系列命令）。
 
 Python是解释型编程语音，Java、C++是编译型语言。
 
-1.由来
+1.名字起源
 
 Python这个名字，来自Guido所挚爱的电视剧Monty Python’s Flying Circus。
 
+吉多于1991年首次发布Python 0.9.0。于2000年发布Python2.0。于2008年发布Python3.0（主要修订版本）。目前已经到Python3.9。
+
+Python的设计哲学是“优雅”、“明确”、“简单”。它的重要准则被称为“[Python之禅](https://zh.m.wikipedia.org/wiki/Python之禅)”。在Python解释器内运行`import this`可以获得完整的列表，下面是其中首要：
+
+- 优美优于丑陋。明了优于隐晦。
+- 简单优于复杂。复杂优于凌乱。
+- 扁平优于嵌套。稀疏优于稠密。
+- 可读性很重要。
+
 2.应用领域
 
-Python可以应用于众多领域，如：数据分析、组件集成、网络服务、图像处理、数值计算和科学计算等众多领域。目前业内几乎所有大中型互联网企业都在使用Python，如：Youtube、Dropbox、BT、Quora（中国知乎）、豆瓣、知乎、Google、Yahoo!、Facebook、NASA、百度、腾讯、汽车之家、美团等。
+Python可以应用于众多领域，如：数据分析、组件集成、网络服务、图像处理、数值计算和科学计算等众多领域。目前业内几乎所有大中型互联网企业都在使用Python，如：Youtube、Dropbox、BT、Quora（对比中国知乎）、豆瓣、知乎、Google、Yahoo!、Facebook、NASA、百度、腾讯、汽车之家、美团等。
 
-## 目的
+3.金融领域
+
+计算PD、图谱（[Neo4j](https://neo4j.com/developer/python/)）、投资组合、资本资产定、量化交易（连接Wind数据库等）、搭建各类模型等。
+
+## 本次报告目的
 
 了解Python，数据结构、语法规范、如何深入学习等。解决使用中遇到的一些环境配置问题。
 
-## 如何学好？
+## 如何学好Python
 
 多 练。
 
@@ -75,7 +90,7 @@ Statsmodels 是一个统计分析包，来源R语音分析的丰富性，包括�
 
 1. Mac
 
-   * [下载地址](https://www.anaconda.com/distribution/)，下载Python 3.7 version for Mac
+   * [下载地址](https://www.anaconda.com/distribution/)，下载Python 3.9 version for Mac
 
    * 安装，一直下一步即可。
 
@@ -89,7 +104,7 @@ Statsmodels 是一个统计分析包，来源R语音分析的丰富性，包括�
 
 2. Windows
 
-   * [下载地址](https://www.anaconda.com/distribution/)，下载Python 3.7 version for Windows
+   * [下载地址](https://www.anaconda.com/distribution/)，下载Python 3.9 version for Windows
 
    * 安装
 
@@ -99,15 +114,15 @@ Statsmodels 是一个统计分析包，来源R语音分析的丰富性，包括�
 
        ```
        □ Add Anaconda to my PATH environment variable
-       ☑ Register Anaconda as my default Python 3.7
+       ☑ Register Anaconda as my default Python 3.9
        ```
 
-     * 安装完毕后，需要配置环境变量，打开 我的电脑 — 右键属性 — 高级系统设置 — 环境变量 — 选中Path变量一栏 — 点击编辑 — 新建，加入下面三行：【注：`\Anaconda3`为`粘贴内容`里面的，这里只是为展现形式。】
+     * 安装完毕后，需要配置环境变量，打开 我的电脑 — 右键属性 — 高级系统设置 — 环境变量 — 选中Path变量一栏 — 点击编辑 — 新建，加入下面三行：
 
        ```
-       粘贴内容\Anaconda3
-       粘贴内容\Anaconda3\Scripts
-       粘贴内容\Anaconda3\Library\bin
+       粘贴内容
+       粘贴内容\Scripts
+       粘贴内容\Library\bin
        ```
 
      * 进入cmd，需更新修复一个[bug](https://superuser.com/questions/1422008/conda-install-packagename-gives-deprecation-warning)，按照下面步骤操作即可（Windows进入cmd方法：Windows+R，输入：cmd）：
@@ -127,7 +142,21 @@ Statsmodels 是一个统计分析包，来源R语音分析的丰富性，包括�
      推荐前者，后者打开速度很慢。
 
 
+3. Linux
 
+   * [下载地址](https://www.anaconda.com/distribution/)，下载Python 3.9 version for Linux
+
+   * 将下载的文件放到linux路径下，然后输出 
+       ```
+       bash XXX.sh
+       ```
+
+   * 一直向下，是否安装VScode，看个人爱好，我选择no。
+
+   * 之后可以参考Linux_server 文档操作Linux。
+
+
+​     
 
 
 ## 执行环境
@@ -193,11 +222,9 @@ pip install --upgrade package_name
 
 
 
-## 
 
 
-
-# 实践
+# 实践演示
 
 ## 读取文件
 
@@ -230,6 +257,10 @@ data = pd.read_csv('file_path',sep=',')
 
 
 
+
+
+# 总结
+
 ## 回顾
 
 * 了解Python
@@ -246,7 +277,7 @@ data = pd.read_csv('file_path',sep=',')
 
 ## Reference
 
-1. **书籍 Python for Data Analysis[网译书籍](https://www.gitbook.com/download/pdf/book/wizardforcel/pyda-2e)， [2nd codes](https://github.com/wesm/pydata-book)。第一版 [中文版](https://pan.baidu.com/s/14aUj15-_ZVr2GEQGY780Rg)， 密码:m4v2。**
+1. **书籍 Python for Data Analysis [中文&原版](https://www.aliyundrive.com/s/yezsdGMEVgb)，提取密码0ui8。[2nd codes](https://github.com/wesm/pydata-book)。**
 2. [Google's Python Class](https://developers.google.com/edu/python/) 里面含有video可以帮助了解数据的类型。
 3. [视频教程](https://morvanzhou.github.io/tutorials/python-basic/basic/) 里面还有video可以帮助基本操作。来源官方文档[The Python Tutorial](https://docs.python.org/3.7/tutorial/)。
 4. [廖雪峰教程](https://www.liaoxuefeng.com/wiki/1016959663602400)
@@ -259,7 +290,14 @@ data = pd.read_csv('file_path',sep=',')
 
 
 
+# PS
 
+## Python加密
+
+主要为编译pyc，代码混淆，windows独有的执行文件，Cython兼容性可能一般。
+
+1. https://zhuanlan.zhihu.com/p/54296517
+2. https://zhuanlan.zhihu.com/p/60888285
 
 
 
