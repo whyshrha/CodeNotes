@@ -35,7 +35,7 @@ Python可以应用于众多领域，如：数据分析、组件集成、网络�
 
 3.金融领域
 
-计算PD、图谱（[Neo4j](https://neo4j.com/developer/python/)）、投资组合、资本资产定、量化交易（连接Wind数据库等）、搭建各类模型等。
+计算PD、图谱（[Neo4j](https://neo4j.com/developer/python/)）、投资组合、资本资产定价、量化交易（连接Wind数据库等）、搭建各类模型等。
 
 ## 本次报告目的
 
